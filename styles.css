@@ -1,0 +1,70 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 40%;
+    margin: auto;
+
+}
+
+fieldset {
+    background-color: rgba(204, 248, 216, 0.341);
+    border-radius: 10px;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: rgb(16, 40, 1);
+
+}
+
+legend {
+    font: size 2px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+
+}
+
+input {
+    background-color: rgba(202, 238, 172, 0.319);
+    border-radius: 10px;
+    border-style: ridge;
+}
+
+input[type="file"] {
+    border: none;
+    border-radius: 0px;
+    background-color: inherit;
+
+}
+
+textarea {
+    background-color: rgba(202, 238, 172, 0.319);
+    width: 100%;
+
+}
+
+input:focus {
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+fieldset.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
