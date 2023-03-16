@@ -1,0 +1,65 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 80%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+
+}
+
+.item {
+    border: 3px;
+    border-radius: 10px;
+    background-color: rgba(61, 225, 219, 0.255);
+    width: 380px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(237, 154, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+p {
+    text-align: center;
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(240, 30, 202);
+}
+
+body {
+    background-image: url('https://t3.ftcdn.net/jpg/02/90/89/76/360_F_290897614_7RdAsk2GmumcGWZ2qklmV74hKlNmznSx.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: aqua;
+}
+
+input {
+    background-color: rgba(172, 238, 236, 0.319);
+    border-radius: 10px;
+    border-style: ridge;
+}

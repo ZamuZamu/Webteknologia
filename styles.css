@@ -9,7 +9,7 @@ body {
 }
 
 fieldset {
-    background-color: rgba(204, 248, 216, 0.341);
+    background-color: rgba(184, 254, 203, 0.341);
     border-radius: 10px;
     border-style: dashed;
     border-width: 5px;
@@ -67,4 +67,8 @@ fieldset.container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.input-container.start {
+    justify-content: start;
 }
