@@ -1,6 +1,6 @@
-div.card{
+div.card {
     display: flex;
-    background-color:rgba(245, 245, 245, 0.151);
+    background-color: rgba(245, 245, 245, 0.151);
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
@@ -10,56 +10,61 @@ div.card{
     margin-bottom: 100px;
     border: 3px;
     border-radius: 10px;
-    border-style:outset;
+    border-style: outset;
     border-width: 5px;
     border-radius: 10px;
     border-color: rgba(245, 245, 245, 0.397);
-    
+
 }
-body{
-    display:flex;
+
+body {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     background-image: url('https://images.theconversation.com/files/440861/original/file-20220114-19-18wivp1.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=675.0&fit=crop');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-size:100%;
+    background-size: 100%;
     background-position-x: center;
     background-position-y: center;
 }
-.container-fluid{
+
+.container-fluid {
     background-color: rgba(245, 245, 245, 0.74);
-    border-style:outset;
-    
+    border-style: outset;
+
 }
-nav{
+
+nav {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     font-weight: bold;
     color: aliceblue;
-    
+
 }
-p{
+
+p {
     text-align: center;
-    font-family:'Times New Roman', Times, serif ;
+    font-family: 'Times New Roman', Times, serif;
     color: aliceblue;
 }
-.card-title{
+
+.card-title {
     text-align: center;
     font-weight: bold;
     color: aliceblue;
-    
-    
+
+
 }
-.btn.btn-primary{
-    justify-content:center;
+
+.btn.btn-primary {
+    justify-content: center;
     display: flex;
-    background-color:darkslategrey;
+    background-color: darkslategrey;
     font-weight: bolder;
-    
+
 
 }
-
